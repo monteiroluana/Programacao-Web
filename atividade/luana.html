@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Luana Monteiro</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	
+	<style>
+
+	  body {
+		  position: relative; 
+	  }
+	   
+	ul{list-style:none;padding:0px}
+	#lista a{text-decoration:none;color:#444;font-family:arial}
+	#lista ul li:hover{background:#eee;border-bottom:solid 1px #f60;}
+	#lista ul li{width:290px;padding:5px;border-bottom:solid 1px #ccc;}
+	.active a {color:#f60;padding-left:1px;font-style:italic;}
+
+	ul li {  
+		padding: 2px 30px;
+	}
+	
+	#logo{
+		font-family:;
+		font-size:120%;
+		width:300px;
+		/*color:#65a4bb;*/
+		color:white;
+		margin-left:50%;
+		font-weight: 600;
+	}
+	.carousel-inner img {
+      width: 100%;
+      height: 100%;
+ 	 }
+	</style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!--<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #088A85;height:90px;">  -->
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #262626;height:90px;">  
+		<div id ="topo">
+			<div id ="logo">LUANA MONTEIRO</div>
+			<!--<div id="ha">.WEB</div>-->
+		</div>
+
+	<div class="container" style="margin-left:15%;">
+	
+	<ul class="navbar-nav">
+		<li class="nav-item">
+		  <a class="nav-link" href="luana.html">HOME</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="produto.html">ALBÚNS</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="quemSomos.html">QUEM SOMOS</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="faleConosco.html">FALE CONOSCO</a>
+		</li>
+	  </ul>
+	
+	</div>
+</nav>
+
+
+		
+<div id="section1" class="container-fluid" style="background-color:#; margin:0;padding:0px;">
+ 
+		<div class="row" >
+			<div class="col-md-6" style="padding-top:90px;background-color:;height: 700px;">
+				<!--<h4 style="position: absolute;margin-top: 10%; color:white;margin-left:75%;">ATIVIDADE</h4>
+				<h1 style="position: absolute;margin-top: 13%; color:white;margin-left:35%;">PROGRAMAÇÃO WEB</h1>
+				<img src="imgs/microphone.jpg" style="height: 610px;max-width:1000px;">-->
+				
+				<div id="demo" class="carousel slide" data-ride="carousel" style="">
+
+				  <!-- Indicators -->
+				  <ul class="carousel-indicators" >
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+					<li data-target="#demo" data-slide-to="2"></li>
+					<li data-target="#demo" data-slide-to="3"></li>
+					<li data-target="#demo" data-slide-to="4"></li>
+					<li data-target="#demo" data-slide-to="5"></li>
+					<li data-target="#demo" data-slide-to="6"></li>
+
+				  </ul>
+
+				  <!-- The slideshow -->
+				  <div class="carousel-inner" style="height:610px;width:700px">
+				  <center>
+						<div class="carousel-item active">
+						  <img src="imgs/micro_black.jpg" alt="Microphone" style="">
+							<div class="carousel-caption">
+								Atividade<br>
+								<h3>PROGRAMAÇÃO WEB</h3>
+							</div>						  
+						</div>
+						
+						<div class="carousel-item">
+						  <img src="imgs/MaryJBlige.jpg" alt="MaryJBlige" style ="">					  
+						</div>
+						
+						<div class="carousel-item">
+						  <img src="imgs/osMutantes.jpg" alt="Os Mutantes" style ="">						  
+						</div>
+						
+						<div class="carousel-item">
+						  <img src="imgs/ledisi.jpg" alt="Ledisi" style ="">						  
+						</div>
+						
+						<div class="carousel-item">
+						  <img src="imgs/aliciaKeys.jpg" alt="Alicia Keys" style ="">						  
+						</div>
+						
+						<div class="carousel-item">
+						  <img src="imgs/osArrais.jpg" alt="Os Arrais" style ="">					  
+						</div>
+						
+						<div class="carousel-item">
+						  <img src="imgs/ledisi_02.jpg" alt="Ledisi" style ="">					  
+						</div>
+					</center>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#demo" data-slide="next" >
+					<span class="carousel-control-next-icon"></span>
+				  </a>
+
+				</div>
+				
+			</div>
+			
+			<div class="col-md-6" style="padding-top:120px;background-color:white">
+			<center>
+				<div id="capa">
+					<img src="imgs/vinil.png" width=200px height=210px></br>
+					<audio id="audio" preload="auto" tabindex="0" controls="">
+						<source src="ledisi/01 I Blame You.mp3">
+					</audio>
+				</div>		
+		
+				<div id ="lista" style="overflow:scroll; width:320px; height:300px; margin-top:2%;">
+					<ul id="playlist">
+
+						<li class="active"><a href="ledisi/01 I Blame You.mp3">Ledisi - I Blame You</a></li>
+						<li><a href="songs/Mary J. Blige - Therapy (1 Mic 1 Take).mp3">Mary J. Blige - Therapy (1 Mic 1 Take)</a></li>
+						<li><a href="songs/Os Mutantes - Top Top.mp3">Os Mutantes - Top Top</a></li>
+						<li><a href="songs/Os Arrais - Montréal.mp3">Os Arrais - Montréal</a></li>
+						<li><a href="songs/Ledisi - Best friends - Lyrics.mp3">Ledisi - Best friends - Lyrics</a></li>
+						<li><a href="songs/Alicia keys - So Simple.mp3">Alicia keys - So Simple</a></li>
+
+						
+					</ul>
+				</div>
+			</center>	
+			</div>
+		</div>
+	
+</div>  
+	
+<!--<div class="container-fluid" style="height: 200px ;background-color: #262626">	 
+</div>-->
+	
+	
+
+
+<div id="section4" class="container-fluid" style="padding-top:0.1px;padding-bottom:px;background-color: #262626;height: 100px;">
+
+	<div class="row">
+		<div class="col-md-6" style="background-color:">
+			<div style="float:right; margin-top:5%;">
+				<a href="cadastre.html" class="btn btn-warning" style="width:200px">Cadastre-se</a>
+			</div>
+		</div>
+		<div class="col-md-6" style="background-color:; margin-top:3%; color:white">
+			© 2018 por Luana Monteiro Pereira.
+		</div>
+	
+	</div>
+
+</div>
+
+
+</body>
+
+<script type="text/javascript">
+		inicio();
+		
+		function inicio(){
+			var corrente = 0;
+			var audio = $("#audio");
+			var playlist =$("#playlist");
+			var tracks = playlist.find("li a");
+			var len = tracks.length - 1;
+			
+			<!--audio[0].play();-->
+			playlist.find("a").click(function(e){
+				e.preventDefault();
+				link = $(this);
+				corrente = link.parent().index();
+				run(link, audio[0]);
+			});
+			audio[0].addEventListener("ended", function(e){
+				corrente++;
+				if(corrente == len){
+					corrente = 0;
+					link = playlist.find("a")[0];
+				}else{
+					link = playlist.find("a")[corrente];
+				}
+				run($(link), audio[0]);			
+			});
+		}
+				
+		function run(link, player){
+			player.src=link.attr("href");
+			par=link.parent();
+			par.addClass("active").siblings().removeClass("active");
+			player.load();
+			player.play();
+		}
+	</script>
+</html>
